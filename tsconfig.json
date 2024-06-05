@@ -5,7 +5,7 @@
     "paths": {
       "@/*": [
         "./app/*",
-        "./constant/*",
+        "./constants/*",
         "./modules/*",
         "./hooks/*",
         "./components/*"
