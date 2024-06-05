@@ -1,0 +1,18 @@
+export const appColors = {
+  pink: "#F9207A",
+  blue: "#157EDE",
+  green: "#5FE3B2",
+  white: "#FFFFFF",
+  yellow: "#FFC609",
+  border: "#979797",
+  primary: "#2A3455",
+  secondary: "#0C1326",
+  textColor: "#161D34",
+  placeHolder: "#8E96AD",
+  activateText: "#B6BED5",
+  viewBackColor: "#1E2745",
+  deactivateText: "#6F7DAC",
+  transparent: "transparent",
+  lightRed: "rgba(251,33,123,0.4)",
+  lightGreen: "rgba(95,227,178,0.4)",
+};
