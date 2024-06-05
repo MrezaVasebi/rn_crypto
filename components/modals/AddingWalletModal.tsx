@@ -2,7 +2,7 @@ import { appColors } from "@/appColors";
 import { ModalBottomButtons } from "@/buttons";
 import { getCryptoCurrencies } from "@/getCryptoCurrencies";
 import { images } from "@/images";
-import { RootModalPage } from "@/modals";
+import RootModalPage from "@/modals/RootModalPage";
 import NetworkType from "@/NetworkType";
 import AppText from "@/texts/AppText";
 import React, { useState } from "react";

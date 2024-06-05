@@ -23,9 +23,12 @@ export default function RootLayout() {
   }
 
   return (
-    <Stack initialRouteName="AuthPage">
-      <Stack.Screen name="index" options={{ headerShown: false }} />
-      <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+    <Stack initialRouteName="AuthPage" screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="index" />
+      <Stack.Screen name="(tabs)" />
+      <Stack.Screen name="Notifications" />
+      <Stack.Screen name="ReferralCode" />
+      <Stack.Screen name="ActiveOrder" />
     </Stack>
   );
 }

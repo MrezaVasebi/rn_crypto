@@ -1,6 +1,6 @@
 import { ModalBottomButtons } from "@/buttons";
 import InputWithLabel from "@/inputs/InputWithLabel";
-import RootModalPage from "@/modals/RootModalPage";
+import RootModalPage from "./RootModalPage";
 import React from "react";
 import { StyleSheet } from "react-native";
 

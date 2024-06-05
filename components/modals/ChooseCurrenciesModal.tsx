@@ -1,7 +1,7 @@
 import { appColors } from "@/appColors";
 import { getCryptoCurrencies } from "@/getCryptoCurrencies";
 import { images } from "@/images";
-import { RootModalPage } from "@/modals";
+import RootModalPage from "./RootModalPage";
 import AppText from "@/texts/AppText";
 import React from "react";
 import { Image, StyleSheet, TouchableOpacity, View } from "react-native";

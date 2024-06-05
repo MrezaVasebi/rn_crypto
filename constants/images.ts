@@ -1,5 +1,5 @@
 let png = "../assets/images/png";
-let icon = "../assets/images/icons";
+let icon = "../assets/images/icons/";
 
 export const images = {
   BTC: require(`${png}/crypto_icons/Bitcoin.png`),

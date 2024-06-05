@@ -1,6 +1,6 @@
 import { appColors } from "@/appColors";
 import { ModalBottomButtons } from "@/buttons";
-import RootModalPage from "@/modals/RootModalPage";
+import RootModalPage from "./RootModalPage";
 import AppText from "@/texts/AppText";
 import { Ionicons } from "@expo/vector-icons";
 import React from "react";

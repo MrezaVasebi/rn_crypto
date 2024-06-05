@@ -1,7 +1,7 @@
 import { appColors } from "@/appColors";
 import { IconButton, ModalBottomButtons, TextButton } from "@/buttons";
 import { images } from "@/images";
-import { RootModalPage } from "@/modals";
+import RootModalPage from "./RootModalPage";
 import NetworkType from "@/NetworkType";
 import AppText from "@/texts/AppText";
 import WalletAddress from "@/WalletAddress";

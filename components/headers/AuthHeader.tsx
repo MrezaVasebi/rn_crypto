@@ -40,7 +40,7 @@ export default AuthHeader;
 const styles = StyleSheet.create({
   container: {
     marginTop: 20,
-    paddingRight: 20,
+    paddingLeft: 20,
     borderBottomWidth: 1,
     justifyContent: "flex-end",
     flexDirection: "row-reverse",

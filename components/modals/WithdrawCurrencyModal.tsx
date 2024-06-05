@@ -1,7 +1,7 @@
 import { appColors } from "@/appColors";
 import { CheckBox, ModalBottomButtons, TextButton } from "@/buttons";
 import SimpleInput from "@/inputs/SimpleInput";
-import { RootModalPage } from "@/modals";
+import RootModalPage from "./RootModalPage";
 import NetworkType from "@/NetworkType";
 import AppText from "@/texts/AppText";
 import React, { useState } from "react";

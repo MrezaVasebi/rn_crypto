@@ -6,7 +6,7 @@ import AppText from "@/texts/AppText";
 import { Picker } from "@react-native-picker/picker";
 import React, { useState } from "react";
 import { StyleSheet, View } from "react-native";
-import RootModalPage from "../../../components/modals/RootModalPage";
+import RootModalPage from "./RootModalPage";
 
 interface IHistoryFilterModal {
   onCloseModal: (value: boolean) => void;

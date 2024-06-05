@@ -1,10 +1,10 @@
 import { appColors } from "@/appColors";
 import { ChooseButton, ModalBottomButtons, TextButton } from "@/buttons";
 import SimpleInput from "@/inputs/SimpleInput";
-import { RootModalPage } from "@/modals";
 import AppText from "@/texts/AppText";
 import React from "react";
 import { StyleSheet, View } from "react-native";
+import RootModalPage from "./RootModalPage";
 
 interface IWithdrawRialModal {
   onCloseModal(): void;
