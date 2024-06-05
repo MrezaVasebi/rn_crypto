@@ -9,7 +9,7 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const [loaded] = useFonts({
-    SpaceMono: require("../assets/fonts/SpaceMono-Regular.ttf"),
+    medium: require("../assets/fonts/Medium.ttf"),
   });
 
   useEffect(() => {
@@ -24,7 +24,7 @@ export default function RootLayout() {
 
   return (
     <Stack initialRouteName="AuthPage">
-      <Stack.Screen name="index" />
+      <Stack.Screen name="index" options={{ headerShown: false }} />
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
     </Stack>
   );
